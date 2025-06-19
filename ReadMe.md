@@ -20,6 +20,13 @@ Locust can be distributed to additional processes to avoid issues with the pytho
 
 Results were collected from VS Code 1.101 on a Windows 10 machine (Intel i9-10900KF at 3.7GHz, 32GB RAM)
 
+Overall stats:
+
+|API|# Requests|# Fails|Median (ms)|95%ile (ms)|99%ile (ms)|Average (ms)|Min (ms)|Max (ms)|Average size (bytes)|Current RPS|Current Failures/s|
+|-|-|-|-|-|-|-|-|-|-|-|-|
+|Java|325350|0|240|270|340|199.44|1|1087|21|1790.4|0|
+|Python|94886|60989|890|1300|2100|769.2|2|2453|10.36|497.2|496.3|
+
 ## Flask API
 
 #### Stats
