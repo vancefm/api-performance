@@ -18,6 +18,8 @@ Locust can be distributed to additional processes to avoid issues with the pytho
 
 # Results
 
+Results were collected from VS Code 1.101 on a Windows 10 machine (Intel i9-10900KF@3.7GHz, 32GB RAM)
+
 ## Flask API
 
 #### Stats
