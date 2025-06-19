@@ -1,0 +1,5 @@
+.venv
+flask-api/__pycache__/app.cpython-312.pyc
+java-api/.mvn/wrapper/maven-wrapper.properties
+java-api/.gitattributes
+locust-tester/__pycache__/locustfile.cpython-312.pyc
