@@ -1,11 +1,12 @@
 # Project
 
-Launch locust from commandline to start testing app, use `locust`. The start your test API.
+Launch `start.bat`. Start your test API, then start the locust test from the web UI.
+
+***Note: start.bat assumes you are using a virtual environment. Adjust as needed.***
 
 # Test parameters
-- 500 users
-- 8 users/sec ramp up
-- 3 minute runtime
+
+See config file [locust.conf](locust-tester\locust.conf)
 
 1. All applications running locally within a Windows environment
 1. Locust will run in a single process
