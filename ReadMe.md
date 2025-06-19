@@ -32,10 +32,10 @@ Locust can be distributed to additional processes to avoid issues with the pytho
 ## Java API
 
 #### Stats
-![](resultimages/javastats.jpg)
+![](resultimages/javastats.JPG)
 
 #### Chart
-![](resultimages/javachart.jpg)
+![](resultimages/javachart.JPG)
 
 #### Errors
-![](resultimages/javafailures.jpg)
+![](resultimages/javafailures.JPG)
