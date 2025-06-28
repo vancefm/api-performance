@@ -1,4 +1,7 @@
 from flask import Flask, request, jsonify
+from waitress import serve
+
+# Start with 4 workers using: waitress-serve --listen=*:5000 --threads=4 app:app
 
 app = Flask(__name__)
 
@@ -9,4 +12,5 @@ def status():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True)
+    serve(app, listen='*:5000', threads=4)
+    

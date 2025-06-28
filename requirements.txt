@@ -1,2 +1,5 @@
 Flask==3.1.1
 locust==2.37.10
+fastapi==0.115.14
+uvicorn==0.34.3
+waitress==3.0.2
